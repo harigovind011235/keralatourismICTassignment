@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Kerala Tourism</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="./images/kerala-tourism-logo.png" alt="logo" width="30" height="24">
+          </a>
+          <div class="head-tag">
+            <a href="#">Our Districts</a>
+            <a href="#">Things To Do</a>
+            <a href="#">Packages</a>
+            <a href="#">Our Blog</a>
+            <a href="login.html">LogIn</a>
+            <a href="#">About Us</a>
+        </div>
+      </nav>
+
+      <!-- carosuel -->
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/images/imagetile.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/images/carossel2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/carossel3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <button id="login" onclick="window.location.href='login.html';">Login</button>
+
+      <!-- Introduction -->
+      <div class="introduction">
+      <h2 id ="intro-head">Explore Kerala</h2>
+      <p id="intro-para">
+        Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife. National parks like Eravikulam and Periyar, plus Wayanad and other sanctuaries, are home to elephants, langur monkeys and tigers.
+      </p>
+    </div>
+    
+    <!-- Districts link using image tile -->
+    <div class="dist-images">
+        <a href="thiruvananthapuram.html"><img src="./images/trivandrum.jpg" class="img-fluid" alt="thiruvananthapuram" id="tvm"></a>
+        <a href="kollam.html"><img src="./images/KOLLAMTILE.jpg" class="img-fluid" alt="kollam"></a>
+        <a href="pathanamthitta.html"><img src="./images/pathanamitta.jpg" class="img-fluid" alt="pathanamthitta" id="pathanamthitta"></a>
+        <a href="alapuzha.html"><img src="./images/alappuzhaya.jpeg" class="img-fluid" alt="alappuzhaya" id="alappuzhaya"></a>
+        <a href="kottayam.html"><img src="./images/kottayam.jpg" class="img-fluid" alt="kottayam" id="kottayam"></a>
+        <a href="idukki.html"><img src="./images/idukki.jpg" class="img-fluid" alt="idukki" id="idukki"></a>
+        <a href="ernakulam.html"><img src="./images/ernakulam.jpg" class="img-fluid" alt="ernakulam" id="ernakulam"></a>
+        <a href="thrissur.html"><img src="./images/thrissur.jpg" class="img-fluid" alt="thrissur"></a>
+        <a href="palakkad.html"><img src="./images/palakkad.jpeg" class="img-fluid" alt="palakkad"></a>
+        <a href="malappuram.html"><img src="./images/malappuramtile.jpg" class="img-fluid" alt="malappuram"></a>
+        <a href="kozhikode.html"><img src="./images/kozhikode.jpg" class="img-fluid" alt="kozhikode"></a>
+        <a href="wayanad.html"><img src="./images/wayanad.jpeg" class="img-fluid" alt="Wayanad" id="wayand"></a>
+        <a href="kannur.html"><img src="./images/kannur.jpeg" class="img-fluid" alt="kannur" id="kannur"></a>
+        <a href="kasargod.html"><img src="./images/kasargodtile.jpg" class="img-fluid" alt="kasargod" id="kasargod"></a>
+    </div>
+    
+    <!-- Footer -->
+
+    <Footer>
+
+        <form>
+            <div class="newsletter">
+              <label>Subscribe Our Newsletter</label>
+            </br>
+              <input type="email" id="email">
+              <button type="button">SUBSCRIBE</button>
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            </form>
+
+        <div class="logo">
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-google-plus-g fa-2x"></i>
+            <!-- <i class="fa-brands fa-instagram-square fa-2x"></i> -->
+        </div>
+    </Footer>
+</body>
+</html>

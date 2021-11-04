@@ -1,0 +1,202 @@
+*{
+    border: 0;
+    margin: 0;
+}
+
+nav img{
+    width: 300px;
+    height: 60px;
+    margin-left: 2px;
+    border: 0px;
+    margin-right: 500px;
+    /* border: 1px solid saddlebrown; */
+    margin-right: 0px;
+}
+.container{
+    border: 2px solid black;
+    margin-left: 0px;
+}
+
+a .nav-item{
+    color: red;
+    font-size: large;
+}
+
+.head-tag{
+    float: right;
+    margin-top: 15px;
+    margin-right: 55px;
+}
+
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    /* border: 1px solid white; */
+    padding: 13px;
+    margin-right: 8px;
+}
+
+.head-tag a:hover{
+    background-color:white;
+    color: green;
+    transition: 0.6s ease-in-out;
+    border-radius: 25px;
+}
+
+nav{
+    background-color: green;
+}
+
+.introduction{
+    /* border: 2px solid green; */
+    position: relative;
+    top: 125px;
+}
+
+#intro-head{
+    text-align: center;
+}
+
+#intro-para{
+    margin-left: 145px;
+    margin-right: 145px;
+    position: relative;
+    top:15px;
+    font-size: 20px;
+    color: rgb(174, 171, 171);
+}
+
+.dist-images {
+    /* border: 2px solid rebeccapurple; */
+    position: relative;
+    top:12rem;
+    margin-left: 105px;
+}
+
+.dist-images img{
+    height: 200px;
+    padding: 9px;
+}
+
+footer{
+    position: relative;
+    top: 250px;
+    background-image: url(../images/neyyar_wildlife_sanctuary.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+.logo{
+    /* border: 1px solid blue; */
+    position: relative;
+    top:150px;
+    /* padding: 18px; */
+    letter-spacing: 20px;
+    margin-left: 43%;
+}
+
+i{
+    /* float: right; */
+
+    color: green;
+    /* margin-left: 550px; */
+}
+
+form{
+    /* border: 1px solid black; */
+    /* margin-top: 50px; */
+    width : 500px;
+    text-align: center;
+    margin-left: 650px;
+}
+
+/* h6{
+    position: absolute;
+  top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+/* } */
+
+input{
+    width: 200px;
+    height: 30px;
+    border: transparent;
+    line-height: 30px;
+}
+
+
+button{
+    height: 30px;    
+    background-color: whitesmoke;
+    color: black;
+    padding-left: 12px;
+}
+
+.newsletter{
+    position: absolute;
+    margin-top: 40px;
+    /* border: 1px solid brown; */
+}
+
+#email{
+    margin-top: 20px;
+}
+
+.carousel-inner{
+    position: fixed;
+}
+
+#login{
+    position: absolute;
+    top: 1050px;
+    margin-left: 50%;
+    width: 100px;
+    border-radius: 40%;
+    padding: 5px;
+    /* border: 2px solid rebeccapurple; */
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+}
+
+#kannur{
+    height:450px;
+    width:300px;
+}
+
+#kottayam{
+    height: 400px;
+    width:300px;
+}
+
+#ernakulam{
+    width:300px;
+    height: 400px;
+}
+
+#tvm{
+    height: 350px;
+}
+
+#pathanamthitta{
+    width:260px;
+    height: 380px;
+}
+
+#kasargod{
+    width:450px;
+    height:280px;
+}
+
+#wayanad{
+    width:500px;
+}
+#alappuzhaya{
+    width:400px;
+    height: 260px;
+}
+
+#idukki{
+    width:400px;
+}
