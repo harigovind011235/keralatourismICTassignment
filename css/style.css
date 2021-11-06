@@ -3,14 +3,15 @@
     margin: 0;
 }
 
-nav img{
+#nav-img{
     width: 300px;
     height: 60px;
-    margin-left: 2px;
+    /* margin-left: 2px; */
     border: 0px;
-    margin-right: 500px;
+    padding: 0;
+    margin-right: 580px;
     /* border: 1px solid saddlebrown; */
-    margin-right: 0px;
+    /* margin-right: 0px; */
 }
 .container{
     border: 2px solid black;
@@ -26,6 +27,7 @@ a .nav-item{
     float: right;
     margin-top: 15px;
     margin-right: 55px;
+    font-size: 16px;
 }
 
 .head-tag a{
