@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/signup.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/signup.css" />
+    <script defer src="./js/style.js"></script>
     <title>SignUp</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar navbar-light">
-        <a class="navbar-brand" href="index.html">
-          <img src="./images/kerala-tourism-logo.png" alt="logo" id="nav-img" width="30" height="24">
-        </a>
-        </nav>
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="./images/kerala-tourism-logo.png"
+          alt="logo"
+          id="nav-img"
+          width="30"
+          height="24"
+        />
+      </a>
+    </nav>
     <div class="signup-box">
-        <h3>Register Here</h3>
-        <form action="login.html">
+      <h3>Register Here</h3>
+      <form action="login.html" method="GET" onsubmit="return validate()" >
         <ul>
-        <li class="list-item"><label>Name</label></li>
-        <li><input type="text" id="name-box"></li>
-        <li class="list-item"><label>Username</label></li>
-        <li><input type="text" id="user-name"></li>
-        <li class="list-item"><label>Email-id</label></li>
-        <li><input type="email" id="email"></li>
-        <li class="list-item"><label>Password</label></li>
-        <li><input type="password" id="password"></li>
-        <li class="list-item"><label>Confirm Password</label></li>
-        <li><input type="password" id="password"></li>
-        <li><button type="submit" id="submit">Submit</button></li>
+          <li class="list-item"><label>Name</label></li>
+          <li><input type="text" id="namefield" required /></li>
+          <li class="list-item"><label>Username</label></li>
+          <li><input type="text" id="username" required/></li>
+          <li class="list-item"><label>Mobile No</label></li>
+          <li><input type="text" id="mbno" /></li>
+          <li class="list-item"><label>Email-id</label></li>
+          <li><input type="email" id="email" required/></li>
+          <li class="list-item"><label>Password</label></li>
+          <li><input type="password" id="password" required/></li>
+          <li class="list-item"><label>Confirm Password</label></li>
+          <li><input type="password" id="confirmpassword" required/></li>
+        </br>
+          <li><label for="error" id="error"></label></li>
+          <li><input type="submit" value="submit" id="submit"></li>
+          
         </ul>
-    </form>
+      </form>
     </div>
-</body>
+  </body>
 </html>
