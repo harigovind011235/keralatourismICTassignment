@@ -22,7 +22,7 @@
     </nav>
     <div class="signup-box">
       <h3>Register Here</h3>
-      <form action="login.html" method="GET" onsubmit="return validate()" >
+      <form action="login.html" onsubmit="return validate();" >
         <ul>
           <li class="list-item"><label>Name</label></li>
           <li><input type="text" id="namefield" required /></li>
@@ -33,7 +33,15 @@
           <li class="list-item"><label>Email-id</label></li>
           <li><input type="email" id="email" required/></li>
           <li class="list-item"><label>Password</label></li>
-          <li><input type="password" id="password" required/></li>
+          <li><input onkeyup="trigger()" type="password" id="password" required/></li>
+          <li><p id="password_text">Password Strength</p></li>
+<!--           
+          <div class="indicator">
+            <span class="weak">1</span>
+            <span class="medium">2</span>
+            <span class="strong">3</span>
+          </div> -->
+          
           <li class="list-item"><label>Confirm Password</label></li>
           <li><input type="password" id="confirmpassword" required/></li>
         </br>
