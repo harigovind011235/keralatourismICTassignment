@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("PolarisProgressivePostModal.react",["PolarisPostModalInternal.react","PolarisProfileTabTaggedPhotosConstants","PolarispostModalHelpers","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react");function a(a){var b,e=d("PolarispostModalHelpers").getModalPageIdFromAnalyticsContext(a.analyticsContext)==="profilePageModal";b=((b=a.modalEntryPath)==null?void 0:b.endsWith("/"+d("PolarisProfileTabTaggedPhotosConstants").TAGGED_TAB_ID+"/"))===!0;return h.jsx(c("PolarisPostModalInternal.react"),babelHelpers["extends"]({},a,{LoadingShimmer:null,skipMediaInfo:e&&!b}))}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);
